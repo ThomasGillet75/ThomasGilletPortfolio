@@ -1,0 +1,18 @@
+.shortcut{
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: #0a0f12 1px 1px 1px;
+    background-color: transparent;
+    border: none;
+}
+
+.shortcut:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    cursor: pointer;
+}

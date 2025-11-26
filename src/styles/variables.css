@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family:'Fredoka One';
+    src: url('../assets/fonts/FredokaOne-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family: 'Arial', sans-serif;
+    --font-family-title: 'Fredoka One', cursive;
+    --primary-color: #7db219;
+    --secondary-color: #DCE7C7;
+    --background-color: #F9FAEF;
+}

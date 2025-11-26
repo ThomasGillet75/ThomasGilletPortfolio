@@ -1,4 +1,6 @@
 export default interface IIcon {
-    color: string;
+    height?: string;
+    width?: string;
+    color?: string;
 }
 

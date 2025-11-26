@@ -5,22 +5,17 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 
-import HomePage from "./components/pages/HomePage.tsx";
-import ThreeJs from "./components/pages/ThreeJs.tsx";
+import Desktop from "./components/pages/HomePage/Desktop.tsx";
 
-import './style/global.css'
-import './style/variables.css'
-import './style/mixins.css'
+import './styles/global.css'
+import './styles/variables.css'
+import './styles/mixins.css'
 
 const router = createBrowserRouter([
     {
         path: "/",
-        Component: HomePage,
+        Component: Desktop,
     },
-    {
-        path: "/threejs",
-        Component: ThreeJs,
-    }
 ]);
 
 createRoot(document.getElementById('root')!).render(
