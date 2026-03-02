@@ -4,6 +4,7 @@ import * as path from "node:path";
 
 
 export default defineConfig({
+    base: '/ThomasGilletPortfolio/',
     plugins: [react()],
     resolve: {
         alias: {

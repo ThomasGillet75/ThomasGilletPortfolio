@@ -1,0 +1,22 @@
+.construction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.construction-content h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+}
+
+.construction-content p {
+    font-size: 1rem;
+    margin: 0;
+}

@@ -1,0 +1,21 @@
+.image{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+}
+
+.image-focus{
+    border-radius: 12px;
+}
+
+.image:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.loaded{
+    opacity: 1;
+}

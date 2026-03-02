@@ -1,0 +1,45 @@
+.profile-container{
+    background-color: #18232c;
+    border-radius: 0 0 0 12px;
+    width: 360px;
+    padding: 4px 4px 16px 16px;
+    color: white;
+    gap:10px
+}
+
+.profile{
+    top:0;
+    right:0;
+    position:absolute;
+    align-items: end;
+}
+
+.profile-image{
+    width: 175px;
+    border-radius: 12px;
+}
+
+.profile-title{
+    color: white;
+}
+
+.overlay {
+    width: 12px;
+    height: 12px;
+    background-color: #18232c;
+    clip-path: path("M 0, 12 L 12, 12 A 12, 12 0, 0, 1 0, 0 Z");
+    rotate: 180deg;
+}
+
+.profile-tagline{
+    font-size: 1em;
+    color: #bbbbbb;
+    margin-top: 5px;
+}
+
+.email{
+    border-radius: 40px;
+    background-color: #37414f;
+    padding: 8px 12px;
+    gap:4px
+}

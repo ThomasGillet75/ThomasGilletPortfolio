@@ -1,5 +1,7 @@
+import type {ReactNode} from "react";
+
 export default interface IShortcut {
     name: string;
-    icon?: React.ReactNode;
+    icon?: ReactNode;
     onClick?: (name:string) => void;
 }

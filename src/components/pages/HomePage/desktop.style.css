@@ -1,19 +1,18 @@
-.home-page{
+.home-page {
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     height: calc(100% - 20px);
 }
 
-.desktop{
-    background-image: url('../src/assets/images/marek.jpg');
+.desktop {
+    background-image: url('/src/assets/images/marek.jpg');
     background-size: cover;
     border-radius: 10px;
     position: relative;
 }
 
-.img-radius
-{
-    border-radius: 10px;
+.dock-container {
+    height: 100%;
 }

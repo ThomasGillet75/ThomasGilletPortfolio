@@ -4,6 +4,7 @@ import TagList from "../../molecules/TagList/TagList.tsx";
 import Tag from "../../atoms/Tag/Tag.tsx"
 import ButtonWindow from "../../atoms/ButtonWindow/ButtonWindow.tsx";
 import ArrowIcon from "../../atoms/Icons/ArrowIcon.tsx";
+import Image from "../../atoms/Image/Image.tsx";
 
 function Lya() {
     const log = () => {
@@ -12,7 +13,7 @@ function Lya() {
     return (
         <div className="window-content">
             <header className="project-header">
-                <h1>Lya : Extension pour l'accessibilité du web</h1>
+                <h1>Lya</h1>
                 <p className="tagline">
                     Un guide IA intégré au navigateur pour améliorer l’accessibilité web pour les personnes en fracture
                     numérique.
@@ -40,7 +41,7 @@ function Lya() {
             </section>
 
             <section>
-                <img className="image" src={LyaImage2}/>
+                <Image src={LyaImage2} alt={"lya_image"}/>
             </section>
         </div>
     );

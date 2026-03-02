@@ -1,0 +1,18 @@
+.placeholder {
+    background-color: #949494;
+    height: 500px;
+    animation: placeholder-animation 1.5s infinite ease-in-out;
+}
+
+/* Définition de l'animation */
+@keyframes placeholder-animation {
+    0% {
+        background-color: #bebebe;
+    }
+    50% {
+        background-color: #b2b2b2;
+    }
+    100% {
+        background-color: #bebebe;
+    }
+}

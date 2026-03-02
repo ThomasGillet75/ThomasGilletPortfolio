@@ -1,0 +1,46 @@
+.dock {
+    background-color: #18232c;
+    border-radius: 0 12px 12px 0;
+    padding: 8px 4px 8px 0;
+
+    align-items: center;
+    max-height: 750px;
+
+}
+
+.dock-grid{
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(auto-fill, 100px);
+    grid-column-gap: 10px;
+    align-items: start;
+    max-height: 400px;
+
+}
+
+.img-radius
+{
+    border-radius: 10px;
+}
+
+.overlay1 {
+    width: 12px;
+    height: 12px;
+    background-color: #18232c;
+    clip-path: path("M 0, 12 L 12, 12 A 12, 12 0, 0, 1 0, 0 Z");
+}
+
+.overlay2 {
+    width: 12px;
+    height: 12px;
+    background-color: #18232c;
+    clip-path: path("M 0, 12 L 12, 12 A 12, 12 0, 0, 1 0, 0 Z");
+    rotate: 90deg;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

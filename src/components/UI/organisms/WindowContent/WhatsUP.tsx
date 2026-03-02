@@ -1,0 +1,48 @@
+import "./window-content.style.css";
+import TagList from "../../molecules/TagList/TagList.tsx";
+import Tag from "../../atoms/Tag/Tag.tsx"
+import ConnectionImage from "../../../../assets/Images/Whatsup/ConnectionWhatsup.png"
+import AccountCreationImage from "../../../../assets/Images/Whatsup/AccountCreationWhatsup.png"
+import MessageImage from "../../../../assets/Images/Whatsup/MessageWhatsup.png"
+import Image from "../../atoms/Image/Image.tsx";
+import {EColor} from "../../../../utils/enum/EColor.ts";
+
+function Lya() {
+    return (
+        <div className="window-content">
+            <header className="project-header">
+                <h1>Whatsup</h1>
+                <p className="tagline">
+                    Application de messagerie
+                </p>
+            </header>
+            <section className="padding">
+                <div className="padding">
+                    Whatsup est une application de bureau développée durant mon cursus à la HELHa dans le cadre d'un
+                    examen. Elle permet une communication sécurisée entre plusieurs utilisateurs.
+                </div>
+            </section>
+            <section>
+                <h3>
+                    Technologie
+                </h3>
+                <TagList>
+                    <Tag color={EColor.GREEN} text="MAUI"/>
+                    <Tag color={EColor.GREEN} text="Socket"/>
+                    <Tag color={EColor.GREEN} text="TCP/IP"/>
+                    <Tag color={EColor.GREEN} text="Worker"/>
+                    <Tag color={EColor.GREEN} text="Entity Framework"/>
+                    <Tag color={EColor.GREEN} text="SQLite"/>
+                </TagList>
+            </section>
+
+            <section className="gallery">
+                <Image src={ConnectionImage} alt={"connectionImage"} />
+                <Image src={AccountCreationImage} alt={"creationImage"}/>
+                <Image src={MessageImage} alt={"messageImage"} />
+            </section>
+        </div>
+    );
+}
+
+export default Lya;

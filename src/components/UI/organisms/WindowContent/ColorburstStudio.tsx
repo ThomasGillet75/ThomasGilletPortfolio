@@ -1,4 +1,3 @@
-import './colorburst-studio.style.css';
 import './window-content.style.css'
 import ButtonWindow from "../../atoms/ButtonWindow/ButtonWindow.tsx";
 import ArrowIcon from "../../atoms/Icons/ArrowIcon.tsx";
@@ -6,6 +5,8 @@ import TagList from "../../molecules/TagList/TagList.tsx";
 import Tag from "../../atoms/Tag/Tag.tsx";
 import Colorburst from "./../../../../assets/Images/ColorBurst_example.png"
 import Colorburst2 from "./../../../../assets/Images/ColorBurst_example2.png"
+import Image from "../../atoms/Image/Image.tsx";
+import {EColor} from "../../../../utils/enum/EColor.ts";
 
 
 
@@ -17,9 +18,9 @@ function ColorburstStudio() {
     return (
         <div className="window-content">
             <header className="project-header">
-                <h1>Colorburst Studio : Jeu de Création de Feux d'Artifice</h1>
+                <h1>Colorburst Studio</h1>
                 <p className="tagline">
-                    Un jeu de simulation de feux d'artifice développé en 72h lors d'une Game jam.
+                    Jeu de Création de Feux d'Artifice
                 </p>
             </header>
 
@@ -33,20 +34,20 @@ function ColorburstStudio() {
                     Ce projet a été entièrement réalisé avec le moteur de jeu Unity dans le cadre d'une
                     Game jam de 72 heures sous le theme "Compound".
                 </div>
-                <ButtonWindow onClick={log}><text>Lien vers le jeux itch</text><ArrowIcon/></ButtonWindow>
+                <ButtonWindow color={EColor.RED} onClick={log}><text>Lien vers le jeux itch</text><ArrowIcon/></ButtonWindow>
             </section>
             <section>
                 <h3>
                     Technologie
                 </h3>
                 <TagList>
-                    <Tag text="Unity"/>
-                    <Tag text="C#"/>
+                    <Tag color={EColor.RED} text="Unity"/>
+                    <Tag color={EColor.RED} text="C#"/>
                 </TagList>
             </section>
             <section className="gallery">
-                <img className="image" src={Colorburst}/>
-                <img className="image" src={Colorburst2}/>
+                <Image alt={"colorburst_image1"} src={Colorburst}/>
+                <Image alt={"colorburst_image2"} src={Colorburst2}/>
             </section>
         </div>
     );

@@ -1,8 +1,9 @@
-import './text.style.css';
-import type IText from "./IText.ts";
+import * as React from "react";
 
-function Text(text : IText) {
-    return (<div className={"text-container center"}><span className="text">{text.text}</span></div>);
+
+function Text({ children }: { children: React.ReactNode }) {
+    return (<div className={"text"}>{children}</div>)
 }
 
 export default Text;
+

@@ -3,9 +3,9 @@ import type IButtonWindow from "./IButtonWindow.ts";
 import * as React from "react";
 
 
-function ButtonWindow({children, onClick} : IButtonWindow & {children:React.ReactNode}) {
+function ButtonWindow({children, onClick,color} : IButtonWindow & {children:React.ReactNode}) {
     return (
-        <button className="button-window" onClick={onClick}>
+        <button className={`button-window ${color}`} onClick={onClick}>
             {children}
         </button>
     )

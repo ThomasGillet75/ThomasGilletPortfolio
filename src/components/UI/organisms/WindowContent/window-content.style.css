@@ -5,6 +5,8 @@
     line-height: 1.6;
     overflow: hidden;
     overflow-y: auto;
+    container-name: window-content;
+    container-type: inline-size;
 }
 
 .project-header {
@@ -23,13 +25,24 @@
     margin-top: 5px;
 }
 
-.image{
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
+
 
 .padding{
     padding-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery > * {
+    flex-basis: 100%;
+}
+
+@container window-content (min-width: 800px) {
+    .gallery > * {
+        flex-basis: calc(33% - 5px);
+    }
 }

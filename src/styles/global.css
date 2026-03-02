@@ -6,7 +6,7 @@
 
 body {
     font-family: var(--font-family);
-    background-color: #0a0f12;
+    background-color: #18232c;
     color: #333;
     width: 100%;
 
@@ -22,6 +22,6 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #0a0f12;
+    background-color: #18232c;
     overflow: hidden;
 }
