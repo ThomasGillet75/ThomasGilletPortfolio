@@ -14,8 +14,7 @@ import task from "../../../../assets/Images/Rewardly/task.png";
 import taskModif from "../../../../assets/Images/Rewardly/tast_modif.png";
 import {EColor} from "../../../../utils/enum/EColor.ts";
 
-function Rewardly()
-{
+function Rewardly() {
     const log = () => {
         window.open("https://github.com/ThomasGillet75/rewardly", "_blank");
     }
@@ -24,21 +23,24 @@ function Rewardly()
             <header className="project-header">
                 <h1>Rewardly</h1>
                 <p className="tagline">
-                    Application to-do list
+                    To-Do List Application
                 </p>
             </header>
-
             <section className="padding">
                 <p className="padding">
-                    Application développée durant mon cursus à la HELHa, dans le cadre du cours de développement mobile.
-                    Il s'agit d'une application To-Do List permettant de créer des groupes, d’y ajouter des utilisateurs et de partager des tâches entre eux.
-                    Chaque groupe peut également définir une récompense qui sera débloquée une fois que toutes les tâches auront été complétées.
+                    Rewardly is an application developed during my studies at HELHa, as part of the mobile development
+                    course.
+                    It is a To-Do List application that allows users to create groups, add members and share tasks
+                    between them.
+                    Each group can also define a reward that will be unlocked once all tasks have been completed.
                 </p>
-                <ButtonWindow color={EColor.GREEN} onClick={log}><text>Code Github</text><ArrowIcon/></ButtonWindow>
+                <ButtonWindow color={EColor.GREEN} onClick={log}>
+                    <text>GitHub Code</text>
+                    <ArrowIcon/></ButtonWindow>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag color={EColor.GREEN} text="Flutter"/>
@@ -47,12 +49,12 @@ function Rewardly()
             </section>
             <section className="gallery">
                 <Image src={connexion} alt={"image"}/>
-                <Image src={task} alt={"image"} />
-                <Image src={taskCreation} alt={"image"} />
-                <Image src={taskModif} alt={"image"} />
-                <Image src={project} alt={"image"} />
-                <Image src={group} alt={"image"} />
-                <Image src={groupSuccess} alt={"image"} />
+                <Image src={task} alt={"image"}/>
+                <Image src={taskCreation} alt={"image"}/>
+                <Image src={taskModif} alt={"image"}/>
+                <Image src={project} alt={"image"}/>
+                <Image src={group} alt={"image"}/>
+                <Image src={groupSuccess} alt={"image"}/>
                 <Image src={friend} alt={"image"}/>
                 <Image src={friendGroup} alt={"image"}/>
             </section>

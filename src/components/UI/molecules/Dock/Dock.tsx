@@ -51,7 +51,7 @@ function Dock(dockProps : IDock) {
         <div >
             <div className="overlay1"/>
             <div className={"dock"}>
-                <div className={"text"}>Projet</div>
+                <div className={"text"}>Project</div>
                 <div className={"dock-grid"}>
                     {shortcuts.map((shortcut) => {
                         return (

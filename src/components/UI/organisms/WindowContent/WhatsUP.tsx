@@ -13,18 +13,18 @@ function Lya() {
             <header className="project-header">
                 <h1>Whatsup</h1>
                 <p className="tagline">
-                    Application de messagerie
+                    Messaging Application
                 </p>
             </header>
             <section className="padding">
                 <div className="padding">
-                    Whatsup est une application de bureau développée durant mon cursus à la HELHa dans le cadre d'un
-                    examen. Elle permet une communication sécurisée entre plusieurs utilisateurs.
+                    Whatsup is a desktop application developed during my studies at HELHa as part of an exam.
+                    It enables secure communication between multiple users.
                 </div>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag color={EColor.GREEN} text="MAUI"/>
@@ -37,9 +37,9 @@ function Lya() {
             </section>
 
             <section className="gallery">
-                <Image src={ConnectionImage} alt={"connectionImage"} />
+                <Image src={ConnectionImage} alt={"connectionImage"}/>
                 <Image src={AccountCreationImage} alt={"creationImage"}/>
-                <Image src={MessageImage} alt={"messageImage"} />
+                <Image src={MessageImage} alt={"messageImage"}/>
             </section>
         </div>
     );

@@ -6,11 +6,9 @@ function SnakeGrid() {
     const [direction, setDirection] = useState("right")
     const [SnakeHeadX, setSnakeHeadX] = useState(4);
     const [SnakeHeadY, setSnakeHeadY] = useState(8);
-    const [lastKey, setLastKey] = useState<string | null>(null);
 
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
-            setLastKey(e.key);
 
             if (e.key === "ArrowRight") {
                 setDirection("right");

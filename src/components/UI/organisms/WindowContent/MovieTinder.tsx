@@ -14,26 +14,26 @@ import parametreMovie2 from "../../../../assets/Images/MovieTinder/Parametre_Mov
 import succesMovie from "../../../../assets/Images/MovieTinder/Success_Movie.png"
 
 
-
-function Rewardly()
-{
+function Rewardly() {
     return (
         <div className="window-content">
             <header className="project-header">
                 <h1>MovieTinder</h1>
                 <p className="tagline">
-                    Page web pour trouver un film qui plait a tout le monde
+                    Web application to find a movie everyone will enjoy
                 </p>
             </header>
 
             <section className="padding">
                 <p className="padding">
-                    MovieTinder est une application web développée durant mon cursus à la HELHa. Elle permet aux utilisateurs de découvrir, d'aimer et de "matcher" des films. Il est également possible de créer ou de rejoindre un groupe pour lancer une recherche commune et trouver un film qui plaît à tous les membres.
+                    MovieTinder is a web application developed during my studies at HELHa. It allows users to discover,
+                    like and "match" movies. Users can also create or join a group to start a shared search and find a
+                    movie that suits all members.
                 </p>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag color={EColor.Purple} text="React"/>
@@ -46,11 +46,11 @@ function Rewardly()
             </section>
             <section className="gallery">
                 <Image src={connexionMovie} alt={"image"}/>
-                <Image src={homeMovie} alt={"image"} />
-                <Image src={detailMovie} alt={"image"} />
-                <Image src={groupMovie} alt={"image"} />
-                <Image src={joinGroup} alt={"image"} />
-                <Image src={groupGestion} alt={"image"} />
+                <Image src={homeMovie} alt={"image"}/>
+                <Image src={detailMovie} alt={"image"}/>
+                <Image src={groupMovie} alt={"image"}/>
+                <Image src={joinGroup} alt={"image"}/>
+                <Image src={groupGestion} alt={"image"}/>
                 <Image src={matchMovie} alt={"image"}/>
                 <Image src={succesMovie} alt={"image"}/>
                 <Image src={parametreMovie} alt={"image"}/>

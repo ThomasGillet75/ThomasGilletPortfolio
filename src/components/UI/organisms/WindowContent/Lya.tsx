@@ -15,23 +15,23 @@ function Lya() {
             <header className="project-header">
                 <h1>Lya</h1>
                 <p className="tagline">
-                    Un guide IA intégré au navigateur pour améliorer l’accessibilité web pour les personnes en fracture
-                    numérique.
+                    An AI-powered browser guide to improve web accessibility for people with digital literacy
+                    challenges.
                 </p>
             </header>
-            <section className="padding" >
+            <section className="padding">
                 <div className="padding">
-                    Lya est une extension de navigateur conçue pour assister les utilisateurs ayant des difficultés avec
-                    l'informatique.
-                    En analysant le contenu des pages web, elle offre une aide contextuelle pour simplifier la
-                    navigation et la compréhension.
-                    Ce projet a été développé en 48 heures lors du hackathon "AI4Good" organisé par le MIC Belgique.
+                    Lya is a browser extension designed to assist users who have difficulties with technology.
+                    By analyzing web page content, it provides contextual help to simplify navigation and understanding.
+                    This project was developed in 48 hours during the "AI4Good" hackathon organized by MIC Belgium.
                 </div>
-                <ButtonWindow onClick={log}><text>Présentation lors du Hackathon</text><ArrowIcon/></ButtonWindow>
+                <ButtonWindow onClick={log}>
+                    <text>Hackathon Presentation</text>
+                    <ArrowIcon/></ButtonWindow>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag text="JavaScript"/>

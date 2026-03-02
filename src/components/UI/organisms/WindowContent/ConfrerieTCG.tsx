@@ -7,26 +7,26 @@ import ScanTCG from "../../../../assets/Images/Scan_TCG.png"
 import CollectionTCG from "../../../../assets/Images/Collection_TCG.png"
 import OpeningTCG from "../../../../assets/Images/Opening_TCG.png"
 import {EColor} from "../../../../utils/enum/EColor.ts";
-
 function ConfrerieTCG() {
     return (
         <div className="window-content">
             <header className="project-header">
                 <h1>Confrerie TCG</h1>
                 <p className="tagline">
-                    Jeu de collection de cartes virtuelles de confrerie Belge
+                    Virtual Belgian Brotherhood Card Collection Game
                 </p>
             </header>
-            <section className="padding" >
+            <section className="padding">
                 <div className="padding">
-                    Confrérie TCG est un projet réalisé en 48 heures lors du Hackathon organisé par le CSLab de Namur, sur le thème « Le Patrimoine ».
-                    C’est un jeu de cartes à collectionner dont l’objectif est de visiter la ville de Namur, découvrir ses monuments et entrer dans les commerces participants.
-                    En scannant des QR Codes, les joueurs peuvent obtenir des paquets de cartes et enrichir leur collection inspirée des confréries belges
+                    Confrérie TCG is a project made in 48 hours during the Hackathon organized by the CSLab of Namur,
+                    under the theme "Heritage". It is a trading card game where the goal is to visit the city of Namur,
+                    discover its monuments and enter participating shops. By scanning QR Codes, players can obtain card
+                    packs and enrich their collection inspired by Belgian brotherhoods.
                 </div>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag color={EColor.RED} text="Unity"/>

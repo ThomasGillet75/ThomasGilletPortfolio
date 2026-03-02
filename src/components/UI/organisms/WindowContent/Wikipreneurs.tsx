@@ -11,25 +11,27 @@ function Wikipreneurs() {
     return (
         <div className="window-content">
             <header className="project-header">
-                <h1>ChatPreneurs</h1>
+                <h1>Wikipreneurs</h1>
                 <p className="tagline">
-                    Un assistant IA pour les entrepreneurs.
+                    AI-powered chatbot assistant for entrepreneurs.
                 </p>
             </header>
             <section className="padding">
                 <div className="padding">
-                    ChatPreneurs est une application web développée pour Wikipreneurs lors de mon stage au MIC Belgique.
-                    Son but est d'aider les entrepreneurs, qu'ils soient débutants ou expérimentés, en leur proposant un chatbot basé sur une architecture RAG et alimenté par le contenu du site de Wikipreneurs.
-                    L'application intègre également des agents spécialisés dans des domaines comme la création d'un business plan, l'association ou la communication.
+                    Wikipreneurs is a web application developed during my internship at MIC Belgium.
+                    Its goal is to assist entrepreneurs, whether beginners or experienced, by providing a chatbot based
+                    on a RAG architecture fed by the content of the Wikipreneurs website.
+                    The application also integrates specialized agents in domains such as business plan creation,
+                    association and communication.
                 </div>
                 <ButtonWindow onClick={openVideoLink}>
-                    <span>Témoignages de Wikipreneurs</span>
+                    <span>Wikipreneurs Testimonials</span>
                     <ArrowIcon/>
                 </ButtonWindow>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag text="TypeScript"/>

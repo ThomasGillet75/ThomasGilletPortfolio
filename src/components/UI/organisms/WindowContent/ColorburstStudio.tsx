@@ -9,7 +9,6 @@ import Image from "../../atoms/Image/Image.tsx";
 import {EColor} from "../../../../utils/enum/EColor.ts";
 
 
-
 function ColorburstStudio() {
 
     const log = () => {
@@ -20,25 +19,28 @@ function ColorburstStudio() {
             <header className="project-header">
                 <h1>Colorburst Studio</h1>
                 <p className="tagline">
-                    Jeu de Création de Feux d'Artifice
+                    Fireworks Creation Game
                 </p>
             </header>
 
             <section className="padding">
                 <p>
-                    Colorburst Studio est un jeu où le joueur incarne un artificier. Le but est de mélanger différentes
-                    poudres chimiques pour créer des feux d'artifice aux couleurs et effets spectaculaires. Le défi
-                    réside dans la découverte des bonnes combinaisons pour faire les plus beau feux d'artifice.
+                    Colorburst Studio is a game where the player takes on the role of a pyrotechnician. The goal is to
+                    mix different chemical powders to create fireworks with spectacular colors and effects. The
+                    challenge
+                    lies in discovering the right combinations to create the most beautiful fireworks.
                 </p>
                 <div className="padding">
-                    Ce projet a été entièrement réalisé avec le moteur de jeu Unity dans le cadre d'une
-                    Game jam de 72 heures sous le theme "Compound".
+                    This project was entirely made with the Unity game engine as part of a
+                    72-hour Game Jam under the theme "Compound".
                 </div>
-                <ButtonWindow color={EColor.RED} onClick={log}><text>Lien vers le jeux itch</text><ArrowIcon/></ButtonWindow>
+                <ButtonWindow color={EColor.RED} onClick={log}>
+                    <text>Link to the itch game</text>
+                    <ArrowIcon/></ButtonWindow>
             </section>
             <section>
                 <h3>
-                    Technologie
+                    Technology
                 </h3>
                 <TagList>
                     <Tag color={EColor.RED} text="Unity"/>
