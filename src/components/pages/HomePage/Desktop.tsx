@@ -14,7 +14,6 @@ import Rewardly from "../../UI/organisms/WindowContent/Rewardly.tsx";
 import MovieTinder from "../../UI/organisms/WindowContent/MovieTinder.tsx";
 import Modal from "../../UI/molecules/Modal/Modal.tsx";
 import WhatsUP from "../../UI/organisms/WindowContent/WhatsUP.tsx";
-import Snake from "../../UI/organisms/Application/Snake.tsx";
 import Text from "../../UI/atoms/Text/Text.tsx";
 
 
@@ -26,7 +25,6 @@ const windowContentMap: Record<string, ReactNode> = {
     [EShortcutName.REWARDLY]: <Rewardly/>,
     [EShortcutName.MOVIETINDER]: <MovieTinder/>,
     [EShortcutName.WHATSUP]: <WhatsUP/>,
-    [EShortcutName.SNAKE]: <Snake/>
 };
 
 function Desktop() {
