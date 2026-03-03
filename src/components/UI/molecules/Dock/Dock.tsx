@@ -42,13 +42,14 @@ const shortcuts: IShortcut[] = [
                                                  draggable={false}/>
     },
     {
-        name: EShortcutName.WHATSUP, icon: <img className={"img-radius"} src={whatsupIcon} alt={"whatsupProjectIcon"} width={64} height={64}/>
-    },
+        name: EShortcutName.WHATSUP,
+        icon: <img className={"img-radius"} src={whatsupIcon} alt={"whatsupProjectIcon"} width={64} height={64}/>
+    }
 ];
 
-function Dock(dockProps : IDock) {
+function Dock(dockProps: IDock) {
     return (
-        <div >
+        <div>
             <div className="overlay1"/>
             <div className={"dock"}>
                 <div className={"text"}>Project</div>
